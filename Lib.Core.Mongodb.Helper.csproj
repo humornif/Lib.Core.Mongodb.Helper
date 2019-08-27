@@ -14,7 +14,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
-    <Version>0.0.1.16</Version>
+    <Version>0.0.1.22</Version>
     <LangVersion>7.3</LangVersion>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Authors>Tiger.Wang</Authors>
@@ -23,6 +23,13 @@
     <Description>Mongodb Helper for DotNet Core, Easy way to access mongodb.</Description>
     <PackageLicenseUrl>https://github.com/humornif/Lib.Core.Mongodb.Helper/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/humornif/Lib.Core.Mongodb.Helper</PackageProjectUrl>
+    <Copyright></Copyright>
+    <PackageIconUrl></PackageIconUrl>
+    <RepositoryUrl></RepositoryUrl>
+    <RepositoryType></RepositoryType>
+    <PackageTags>mongodb,mongo,nosql,nosqlhelper,mongohelper</PackageTags>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <NeutralLanguage>7</NeutralLanguage>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
