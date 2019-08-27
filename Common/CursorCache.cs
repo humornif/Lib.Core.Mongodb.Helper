@@ -2,6 +2,8 @@
 
 namespace Lib.Core.Mongodb.Helper.Common
 {
+    //not use yet, for future
+
     internal class CursorCache<T>
     {
         private static IMemoryCache _cache = new MemoryCache(new MemoryCacheOptions());

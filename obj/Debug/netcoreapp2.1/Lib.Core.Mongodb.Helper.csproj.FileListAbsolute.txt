@@ -14,3 +14,4 @@ D:\Project\Common\Lib.Core.Mongodb.Helper\Lib.Core.Mongodb.Helper\obj\Debug\netc
 D:\Project\Common\Lib.Core.Mongodb.Helper\Lib.Core.Mongodb.Helper\bin\Debug\netcoreapp2.1\Lib.Core.Mongodb.Helper.deps.json
 D:\Project\Common\Lib.Core.Mongodb.Helper\Lib.Core.Mongodb.Helper\bin\Debug\netcoreapp2.1\Lib.Core.Mongodb.Helper.dll
 D:\Project\Common\Lib.Core.Mongodb.Helper\Lib.Core.Mongodb.Helper\bin\Debug\netcoreapp2.1\Lib.Core.Mongodb.Helper.pdb
+D:\Project\Common\Lib.Core.Mongodb.Helper\Lib.Core.Mongodb.Helper\obj\Debug\netcoreapp2.1\Lib.Core.Mongodb.Helper.csprojAssemblyReference.cache
