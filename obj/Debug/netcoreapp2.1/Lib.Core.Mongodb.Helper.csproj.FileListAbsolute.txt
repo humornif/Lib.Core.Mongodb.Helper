@@ -6,12 +6,11 @@ E:\Team-Maoyou\Common\Lib.Core.Mongodb.Helper\Lib.Core.Mongodb.Helper\obj\Debug\
 E:\Team-Maoyou\Common\Lib.Core.Mongodb.Helper\Lib.Core.Mongodb.Helper\obj\Debug\netcoreapp2.1\Lib.Core.Mongodb.Helper.AssemblyInfo.cs
 E:\Team-Maoyou\Common\Lib.Core.Mongodb.Helper\Lib.Core.Mongodb.Helper\obj\Debug\netcoreapp2.1\Lib.Core.Mongodb.Helper.dll
 E:\Team-Maoyou\Common\Lib.Core.Mongodb.Helper\Lib.Core.Mongodb.Helper\obj\Debug\netcoreapp2.1\Lib.Core.Mongodb.Helper.pdb
+D:\Project\Common\Lib.Core.Mongodb.Helper\Lib.Core.Mongodb.Helper\bin\Debug\netcoreapp2.1\Lib.Core.Mongodb.Helper.deps.json
+D:\Project\Common\Lib.Core.Mongodb.Helper\Lib.Core.Mongodb.Helper\bin\Debug\netcoreapp2.1\Lib.Core.Mongodb.Helper.dll
+D:\Project\Common\Lib.Core.Mongodb.Helper\Lib.Core.Mongodb.Helper\bin\Debug\netcoreapp2.1\Lib.Core.Mongodb.Helper.pdb
 D:\Project\Common\Lib.Core.Mongodb.Helper\Lib.Core.Mongodb.Helper\obj\Debug\netcoreapp2.1\Lib.Core.Mongodb.Helper.csproj.CoreCompileInputs.cache
 D:\Project\Common\Lib.Core.Mongodb.Helper\Lib.Core.Mongodb.Helper\obj\Debug\netcoreapp2.1\Lib.Core.Mongodb.Helper.AssemblyInfoInputs.cache
 D:\Project\Common\Lib.Core.Mongodb.Helper\Lib.Core.Mongodb.Helper\obj\Debug\netcoreapp2.1\Lib.Core.Mongodb.Helper.AssemblyInfo.cs
 D:\Project\Common\Lib.Core.Mongodb.Helper\Lib.Core.Mongodb.Helper\obj\Debug\netcoreapp2.1\Lib.Core.Mongodb.Helper.dll
 D:\Project\Common\Lib.Core.Mongodb.Helper\Lib.Core.Mongodb.Helper\obj\Debug\netcoreapp2.1\Lib.Core.Mongodb.Helper.pdb
-D:\Project\Common\Lib.Core.Mongodb.Helper\Lib.Core.Mongodb.Helper\bin\Debug\netcoreapp2.1\Lib.Core.Mongodb.Helper.deps.json
-D:\Project\Common\Lib.Core.Mongodb.Helper\Lib.Core.Mongodb.Helper\bin\Debug\netcoreapp2.1\Lib.Core.Mongodb.Helper.dll
-D:\Project\Common\Lib.Core.Mongodb.Helper\Lib.Core.Mongodb.Helper\bin\Debug\netcoreapp2.1\Lib.Core.Mongodb.Helper.pdb
-D:\Project\Common\Lib.Core.Mongodb.Helper\Lib.Core.Mongodb.Helper\obj\Debug\netcoreapp2.1\Lib.Core.Mongodb.Helper.csprojAssemblyReference.cache

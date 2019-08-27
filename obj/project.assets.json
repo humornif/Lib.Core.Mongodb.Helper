@@ -444,6 +444,17 @@
           "lib/netstandard1.5/MongoDB.Driver.Core.dll": {}
         }
       },
+      "MSBump/2.3.2": {
+        "type": "package",
+        "build": {
+          "build/MSBump.props": {},
+          "build/MSBump.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/MSBump.props": {},
+          "buildMultiTargeting/MSBump.targets": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -2418,6 +2429,79 @@
         "lib/netstandard1.5/MongoDB.Driver.Core.xml",
         "mongodb.driver.core.2.9.1.nupkg.sha512",
         "mongodb.driver.core.nuspec"
+      ]
+    },
+    "MSBump/2.3.2": {
+      "sha512": "tXDZ1bCLSDEWprTpBH/kH/oLCiaeHGxiMFglN0JyFke8YESJd7leF4rOqpre/UzufhCqgtuuAfRnrlXCXpxcgg==",
+      "type": "package",
+      "path": "msbump/2.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MSBump.props",
+        "build/MSBump.targets",
+        "buildMultiTargeting/MSBump.props",
+        "buildMultiTargeting/MSBump.targets",
+        "msbump.2.3.2.nupkg.sha512",
+        "msbump.nuspec",
+        "tasks/net46/MSBump.dll",
+        "tasks/net46/Microsoft.Build.Framework.dll",
+        "tasks/net46/Microsoft.Build.Tasks.Core.dll",
+        "tasks/net46/Microsoft.Build.Utilities.Core.dll",
+        "tasks/net46/Newtonsoft.Json.dll",
+        "tasks/net46/NuGet.Versioning.dll",
+        "tasks/net46/System.Collections.Immutable.dll",
+        "tasks/net46/System.Reflection.Metadata.dll",
+        "tasks/net46/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "tasks/net46/System.Threading.Thread.dll",
+        "tasks/net46/System.Xml.XPath.XDocument.dll",
+        "tasks/net46/System.Xml.XPath.dll",
+        "tasks/netstandard1.6/MSBump.dll",
+        "tasks/netstandard1.6/Microsoft.Build.Framework.dll",
+        "tasks/netstandard1.6/Microsoft.Build.Tasks.Core.dll",
+        "tasks/netstandard1.6/Microsoft.Build.Utilities.Core.dll",
+        "tasks/netstandard1.6/Microsoft.CSharp.dll",
+        "tasks/netstandard1.6/Newtonsoft.Json.dll",
+        "tasks/netstandard1.6/NuGet.Versioning.dll",
+        "tasks/netstandard1.6/System.AppContext.dll",
+        "tasks/netstandard1.6/System.Buffers.dll",
+        "tasks/netstandard1.6/System.Collections.Concurrent.dll",
+        "tasks/netstandard1.6/System.Collections.Immutable.dll",
+        "tasks/netstandard1.6/System.Collections.NonGeneric.dll",
+        "tasks/netstandard1.6/System.Diagnostics.DiagnosticSource.dll",
+        "tasks/netstandard1.6/System.Dynamic.Runtime.dll",
+        "tasks/netstandard1.6/System.IO.Compression.ZipFile.dll",
+        "tasks/netstandard1.6/System.IO.FileSystem.Primitives.dll",
+        "tasks/netstandard1.6/System.Linq.Expressions.dll",
+        "tasks/netstandard1.6/System.Linq.Parallel.dll",
+        "tasks/netstandard1.6/System.Linq.dll",
+        "tasks/netstandard1.6/System.ObjectModel.dll",
+        "tasks/netstandard1.6/System.Private.DataContractSerialization.dll",
+        "tasks/netstandard1.6/System.Reflection.Emit.ILGeneration.dll",
+        "tasks/netstandard1.6/System.Reflection.Emit.Lightweight.dll",
+        "tasks/netstandard1.6/System.Reflection.Emit.dll",
+        "tasks/netstandard1.6/System.Reflection.Metadata.dll",
+        "tasks/netstandard1.6/System.Reflection.TypeExtensions.dll",
+        "tasks/netstandard1.6/System.Resources.Reader.dll",
+        "tasks/netstandard1.6/System.Resources.Writer.dll",
+        "tasks/netstandard1.6/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "tasks/netstandard1.6/System.Runtime.Numerics.dll",
+        "tasks/netstandard1.6/System.Runtime.Serialization.Primitives.dll",
+        "tasks/netstandard1.6/System.Runtime.Serialization.Xml.dll",
+        "tasks/netstandard1.6/System.Security.Cryptography.OpenSsl.dll",
+        "tasks/netstandard1.6/System.Security.Cryptography.Primitives.dll",
+        "tasks/netstandard1.6/System.Text.RegularExpressions.dll",
+        "tasks/netstandard1.6/System.Threading.Tasks.Extensions.dll",
+        "tasks/netstandard1.6/System.Threading.Thread.dll",
+        "tasks/netstandard1.6/System.Threading.ThreadPool.dll",
+        "tasks/netstandard1.6/System.Threading.dll",
+        "tasks/netstandard1.6/System.Xml.ReaderWriter.dll",
+        "tasks/netstandard1.6/System.Xml.XDocument.dll",
+        "tasks/netstandard1.6/System.Xml.XPath.XDocument.dll",
+        "tasks/netstandard1.6/System.Xml.XPath.XmlDocument.dll",
+        "tasks/netstandard1.6/System.Xml.XPath.dll",
+        "tasks/netstandard1.6/System.Xml.XmlDocument.dll",
+        "tasks/netstandard1.6/System.Xml.XmlSerializer.dll"
       ]
     },
     "NETStandard.Library/2.0.3": {
@@ -6053,7 +6137,8 @@
       "Microsoft.NETCore.App >= 2.1.0",
       "microsoft.extensions.configuration >= 2.1.1",
       "microsoft.extensions.configuration.json >= 2.1.1",
-      "mongodb.driver >= 2.9.1"
+      "mongodb.driver >= 2.9.1",
+      "msbump >= 2.3.2"
     ]
   },
   "packageFolders": {
@@ -6061,7 +6146,7 @@
     "D:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "0.0.1",
+    "version": "0.0.1.6-dev0001",
     "restore": {
       "projectUniqueName": "D:\\Project\\Common\\Lib.Core.Mongodb.Helper\\Lib.Core.Mongodb.Helper\\Lib.Core.Mongodb.Helper.csproj",
       "projectName": "Lib.Core.Mongodb.Helper",
@@ -6119,6 +6204,12 @@
           "mongodb.driver": {
             "target": "Package",
             "version": "[2.9.1, )"
+          },
+          "msbump": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.3.2, )"
           }
         },
         "imports": [

@@ -1,17 +1,18 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "7b8c7e1431d247e3d9d8c4ba8d42bab86f6ff472"
+    "signature": "04294804e0c472adcf811730e8beee480c83ab94"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "Lib.Core.Mongodb.Helper/0.0.1": {
+      "Lib.Core.Mongodb.Helper/0.0.1.6-dev0001": {
         "dependencies": {
           "Microsoft.Extensions.Caching.Memory": "2.2.0",
           "Microsoft.Extensions.Configuration": "2.1.1",
           "Microsoft.Extensions.Configuration.Json": "2.1.1",
-          "MongoDB.Driver": "2.9.1"
+          "MongoDB.Driver": "2.9.1",
+          "MSBump": "2.3.2"
         },
         "runtime": {
           "Lib.Core.Mongodb.Helper.dll": {}
@@ -241,6 +242,7 @@
           }
         }
       },
+      "MSBump/2.3.2": {},
       "Newtonsoft.Json/11.0.2": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
@@ -1169,7 +1171,7 @@
     }
   },
   "libraries": {
-    "Lib.Core.Mongodb.Helper/0.0.1": {
+    "Lib.Core.Mongodb.Helper/0.0.1.6-dev0001": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1306,6 +1308,13 @@
       "sha512": "sha512-yZc4jYlkFYoSIHPZlu+dN2izkdplWvbr//m6+UQ62M4YKGXydUWKctMV8GiaUchaRuC04OcBUHLVG/U8L+HzOw==",
       "path": "mongodb.driver.core/2.9.1",
       "hashPath": "mongodb.driver.core.2.9.1.nupkg.sha512"
+    },
+    "MSBump/2.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tXDZ1bCLSDEWprTpBH/kH/oLCiaeHGxiMFglN0JyFke8YESJd7leF4rOqpre/UzufhCqgtuuAfRnrlXCXpxcgg==",
+      "path": "msbump/2.3.2",
+      "hashPath": "msbump.2.3.2.nupkg.sha512"
     },
     "Newtonsoft.Json/11.0.2": {
       "type": "package",

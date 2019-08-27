@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lib.Core.Mongodb.Helper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.1.6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lib.Core.Mongodb.Helper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lib.Core.Mongodb.Helper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

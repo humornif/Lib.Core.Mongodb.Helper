@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>Lib.Core.Mongodb.Helper</id>
-    <version>0.0.1</version>
+    <version>0.0.1.4</version>
     <authors>Lib.Core.Mongodb.Helper</authors>
     <owners>Lib.Core.Mongodb.Helper</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -17,6 +17,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="D:\Project\Common\Lib.Core.Mongodb.Helper\Lib.Core.Mongodb.Helper\bin\Debug\netcoreapp2.1\Lib.Core.Mongodb.Helper.dll" target="lib\netcoreapp2.1\Lib.Core.Mongodb.Helper.dll" />
+    <file src="D:\Project\Common\Lib.Core.Mongodb.Helper\Lib.Core.Mongodb.Helper\bin\Release\netcoreapp2.1\Lib.Core.Mongodb.Helper.dll" target="lib\netcoreapp2.1\Lib.Core.Mongodb.Helper.dll" />
   </files>
 </package>

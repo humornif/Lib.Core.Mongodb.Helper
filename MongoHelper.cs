@@ -31,7 +31,12 @@ namespace Lib.Core.Mongodb.Helper
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json")
                 .Build();
+
             _connection_string = config["MongoConnection"];
+            if (string.IsNullOrEmpty(_connection_string))
+            {
+                throw new Exception("[MongoConnection] setting not found!");
+            }
 
             _database_name = database_name;
             _collection_name = collection_name;
