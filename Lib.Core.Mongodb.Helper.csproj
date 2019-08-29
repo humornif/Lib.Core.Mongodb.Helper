@@ -1,20 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup Label="Globals">
-    <SccProjectName>SAK</SccProjectName>
-    <SccProvider>SAK</SccProvider>
-    <SccAuxPath>SAK</SccAuxPath>
-    <SccLocalPath>SAK</SccLocalPath>
-  </PropertyGroup>
-
   <PropertyGroup>
     <ServerGarbageCollection>true</ServerGarbageCollection>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
-    <Version>0.0.1.22</Version>
+    <Version>0.0.1.28</Version>
     <LangVersion>7.3</LangVersion>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Authors>Tiger.Wang</Authors>
@@ -25,8 +18,8 @@
     <PackageProjectUrl>https://github.com/humornif/Lib.Core.Mongodb.Helper</PackageProjectUrl>
     <Copyright></Copyright>
     <PackageIconUrl></PackageIconUrl>
-    <RepositoryUrl></RepositoryUrl>
-    <RepositoryType></RepositoryType>
+    <RepositoryUrl>https://github.com/humornif/Lib.Core.Mongodb.Helper</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
     <PackageTags>mongodb,mongo,nosql,nosqlhelper,mongohelper</PackageTags>
     <PackageReleaseNotes></PackageReleaseNotes>
     <NeutralLanguage>7</NeutralLanguage>
@@ -46,7 +39,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="2.2.0" />
     <PackageReference Include="microsoft.extensions.configuration" Version="2.1.1" />
     <PackageReference Include="microsoft.extensions.configuration.json" Version="2.1.1" />
     <PackageReference Include="mongodb.driver" Version="2.9.1" />

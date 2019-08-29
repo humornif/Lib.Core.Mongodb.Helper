@@ -1,4 +1,4 @@
-﻿using Microsoft.Extensions.Caching.Memory;
+﻿//using Microsoft.Extensions.Caching.Memory;
 
 namespace Lib.Core.Mongodb.Helper.Common
 {
@@ -6,7 +6,7 @@ namespace Lib.Core.Mongodb.Helper.Common
 
     internal class CursorCache<T>
     {
-        private static IMemoryCache _cache = new MemoryCache(new MemoryCacheOptions());
+        //private static IMemoryCache _cache = new MemoryCache(new MemoryCacheOptions());
         //private CacheItemPolicy _policy = new CacheItemPolicy();
 
         //public CursorCache()
