@@ -28,7 +28,7 @@ namespace Lib.Core.Mongodb.Helper
         public MongoHelper(string database_name, string collection_name)
         {
             var config = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
+                .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
                 .AddJsonFile("appsettings.json")
                 .Build();
 
