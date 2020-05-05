@@ -1,5 +1,11 @@
 # Lib.Core.Mongodb.Helper
 
+Install, from <https://www.nuget.org/packages/Lib.Core.Mongodb.Helper>:
+
+> ~~~bash
+> dotnet add package Lib.Core.Mongodb.Helper
+> ~~~
+
 Refer:
 
 > Mongodb.driver, version:2.9.1
